@@ -48,6 +48,8 @@ output = gradient_descent(ssr_gradient, x, y, np.array(
 # coordinates to draw a line representing best fit line
 line = np.linspace(0, RANGE, 1000)
 plt.plot(line, output[0]+output[1]*line)  # Plotting best fit line
+
+plt.title("Simple Linear Regression using Gradient Descent Algorithm")
 plt.show()
 
 # Testing how accurate to X = Y for unseen values.
