@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import numpy as np
-import random
 
 
 def gradient_descent(gradient, start, learning_rate, iteration_count=50, tolerance=1e-06):
