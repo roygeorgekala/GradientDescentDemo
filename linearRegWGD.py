@@ -2,6 +2,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import random
 
+# Script by Roy George, 7th Semester, BMSIT&M, Bangalore to demonstrate Simple Linear Regression using Gradient Descent Algorithm
+# References from https://realpython.com/gradient-descent-algorithm-python/ and https://www.geeksforgeeks.org/how-to-implement-a-gradient-descent-in-python-to-find-a-local-minimum/
+
 
 # Gradient of Simple Linear Regression y = b0 + b1*x
 def ssr_gradient(x, y, b):
